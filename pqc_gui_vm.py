@@ -219,15 +219,15 @@ def show_security():
     append_result("Key space: 2^256 possible values")
     append_result("")
     append_result("=" * 55)
-    append_result("BRUTE FORCE ATTACK RUNNING - 60 seconds")
+    append_result("BRUTE FORCE ATTACK RUNNING - 300 seconds")
     append_result("=" * 55)
     append_result("")
-    status_label.config(text="Status: ATTACK RUNNING - PLEASE WAIT 60s", fg="red")
+    status_label.config(text="Status: ATTACK RUNNING - PLEASE WAIT 300s", fg="red")
     root.update()
     attempts = 0
     correct = 0
     start_time = time.time()
-    duration = 60
+    duration = 300
     last_print = start_time
     print_interval = 5
     while True:
@@ -254,7 +254,7 @@ def show_security():
     append_result("ATTACK COMPLETE - FINAL RESULTS")
     append_result("=" * 55)
     append_result("")
-    append_result("Duration:        60 seconds")
+    append_result("Duration:        300 seconds")
     append_result("Total attempts:  " + str(attempts))
     append_result("Keys cracked:    " + str(correct))
     append_result("Rate:            " + str(round(rate_total)) + " attempts/sec")
