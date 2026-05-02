@@ -1,0 +1,8 @@
+CONFIDENTIAL SECURITY REPORT
+Patient ID: 10953268
+Name: Galkissa Perera
+Date: April 2026
+Classification: SENSITIVE
+Content: This document contains proprietary healthcare data that requires quantum resistant
+protection againt HNDL attacks
+Organization: University of Plymouth
